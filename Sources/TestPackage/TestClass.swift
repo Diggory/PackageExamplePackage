@@ -2,4 +2,5 @@
 import Foundation
 
 @objc
-class TestClass: NSObject {}
+public class TestClass: NSObject {
+}
