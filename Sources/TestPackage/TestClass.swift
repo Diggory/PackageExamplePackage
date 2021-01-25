@@ -1,6 +1,9 @@
-
 import Foundation
 
-@objc
-public class TestClass: NSObject {
+@objcMembers public class TestClass : NSObject {
+    @objc public let text = "Foo"
+    
+    public func sayHello() {
+        print(text)
+    }
 }
